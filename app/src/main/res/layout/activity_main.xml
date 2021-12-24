@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".view.MainActivity"
     android:orientation="vertical"
     android:background="#fefcfc"
     >
@@ -16,7 +16,7 @@
         tools:layout="@layout/fragment_list"
         android:layout_weight="1"
         android:layout_margin="20dp"
-        android:background="#f2dbd4"
+        android:background="#c6c6c6"
         />
 
     <RelativeLayout
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_operation"
         android:layout_weight="1"
-        android:background="#f2dbd4"
+        android:background="#c6c6c6"
         />
 
 

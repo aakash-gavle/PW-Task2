@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OperationFragment">
+    tools:context=".view.OperationFragment">
 
     <EditText
         android:layout_width="match_parent"
@@ -12,7 +12,8 @@
         android:id="@+id/editText"
         android:hint="@string/enter_name"
         android:layout_margin="16dp"
-        android:textSize="16sp"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
         />
 
     <Button
@@ -25,7 +26,8 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:onClick="saveNote"
-        android:text="@string/add_to_list" />
+        android:text="@string/add_to_list"
+        android:backgroundTint="#474747"/>
 
     <Button
         android:id="@+id/deleteBtn"
@@ -37,6 +39,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:onClick="deleteItems"
-        android:text="@string/delete_items" />
+        android:text="@string/delete_items"
+        android:backgroundTint="#474747"/>
 
 </RelativeLayout>
